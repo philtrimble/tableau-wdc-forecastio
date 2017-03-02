@@ -181,7 +181,7 @@
     // --------------------------------------------------------------------------------
     myConnector.setLocation = function(latitude, longitude) {
       // Hard-code our Forecast.io API Key
-      var apiKey = 'a328cf110f5d0b477e730b71c2cde8de';
+      var apiKey = '0385a670b52bd1d2d44f61734e5b4a77';
       
       // Construct our URL for the API call
       var url = 'https://api.forecast.io/forecast/' + apiKey + '/' + latitude + ',' + longitude;
